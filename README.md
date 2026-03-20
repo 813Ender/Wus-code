@@ -1,4 +1,4 @@
-# DAMN
+# WUS 
 
 A PyTorch multi-task classification model for slice-level `lesion` and slice-level `time`. During evaluation, predictions are aggregated at the case level.
 
