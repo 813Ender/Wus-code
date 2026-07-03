@@ -48,6 +48,12 @@ Requirements:
 - `lesion_label` is derived from the slice filename: if the filename (case-insensitive) contains `x`, then `lesion_label=1` (lesion-present slice); otherwise `lesion_label=0`.
 - `time_label` is derived from the `case` folder name. The code parses a number via `case.split("min")[0].split("_")[-1]`; if the number is `>= 270`, then `time_label=1`, else `time_label=0`.
 
+## Pretrained Checkpoints
+
+You can download the trained model checkpoint directly from Google Drive (click the link below, and the download will start automatically):
+
+[⬇ Download Model Weights (best_model.pth)](https://drive.google.com/file/d/1p_tThtQziHNhaiPyAsYRqj2a-C9KN_cF/view?usp=drive_link)
+
 ## Train
 
 ```bash
